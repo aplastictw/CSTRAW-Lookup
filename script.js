@@ -1,4 +1,4 @@
-var api_url = "https://script.google.com/macros/s/AKfycbx5YGfVuISgCM8-yV1Rqv7usU2twXYL4WSx3GrNVvP6oKJCRW8/exec";
+var api_url = "https://script.google.com/macros/s/AKfycbzm1hb46sSZcfkzW_pXjRWXIWkC6dSA03hWvE1i1WYRdFlMwmg/exec";
 
 $(document).ready(function () {
 
