@@ -44,6 +44,10 @@ function search(id) {
                 $("#secondary .id").text(data.ID);
                 $("#secondary .status").text(data.Status);
                 $("#secondary").fadeIn();
+            } else if (data.Status.includes("備貨")) {
+                $("#secondary .id").text(data.ID);
+                $("#secondary .status").text(data.Status);
+                $("#secondary").fadeIn();
             } else if (data.Status.includes("客服")) {
                 $("#refused .status").text(data.Status);
                 $("#refused").fadeIn();
